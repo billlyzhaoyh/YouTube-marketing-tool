@@ -1,0 +1,4 @@
+
+app/models/distillbert/category_distilbert_predictor/tf_model.h5
+app/models/gpt2/v1/pytorch_model.bin
+app/models/gpt2/v2/pytorch_model.bin
