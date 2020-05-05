@@ -7,6 +7,7 @@ The repo is organised in three components
 1. Streamlit app which is the YouTube marketing tool demo you see in the picture above
 1. Language model which fintunes a GPT2 model from transformers library provided by Huggingface
 1. Category classifier model which contains a distilbert from a library called ktrain built on top of tensorflow
+1. Categroy classifier model trained in Cloud AutoML that detects video category from thumbnail image
 
 ### Original dataset
 The original dataset is from https://www.kaggle.com/datasnaek/youtube-new with trending videos from 6 different countries from mid 2017 to 2018 and this repo uses the data from three English speaking countries: (US, UK and Canada).
@@ -33,3 +34,8 @@ streamlit run app.py
 ```
 
 You should see the streamlit app up and running!
+
+### Future work
+The models are currently simple and they predict video category and we are using the category to suggest some hard matching tags. In the future these are going to be replaced by better models
+1. The tag generation from description will be structure into a transformer based seq2seq architecture to directly generate tags.
+1. The vision part will become a caption generation pipeline

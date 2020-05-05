@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
 
-# Load TFLite model and allocate tensors.
+# Load TFLite model
 def load_vision(model_path='./models/automl/model.tflite'):
 
 	interpreter = tf.lite.Interpreter(model_path=model_path)
