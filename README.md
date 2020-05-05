@@ -1,5 +1,5 @@
 # YouTube-marketing-tool
- Leverage the power of NLP and NLP to make writing YouTube description and tags eaiser
+ Leverage the power of NLP, NLG and Computer Vision to make writing YouTube description and tags eaiser
 
 ![Image of App](./app_pic.png)
 ### Structure of the repo
