@@ -1,7 +1,7 @@
 # YouTube-marketing-tool
  Leverage the power of NLP, NLG and Computer Vision to make writing YouTube description and tags eaiser
 
-![Image of App](./app_pic.png)
+![Image of App](./app_pic1.png)
 ### Structure of the repo
 The repo is organised in three components
 1. Streamlit app which is the YouTube marketing tool demo you see in the picture above
