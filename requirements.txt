@@ -1,7 +1,7 @@
 numpy==1.18.1
 ktrain==0.14.5
 torch==1.4.0
-tensorflow==2.1.0
+tensorflow==2.6.4
 pandas==1.0.3
 streamlit==0.58.0
 transformers==2.8.0
